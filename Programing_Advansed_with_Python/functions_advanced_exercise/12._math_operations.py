@@ -5,8 +5,7 @@ def math_operations(*args, **kwargs):
     numbers = deque(args)
     result = kwargs
     while numbers:
-        if numbers:
-            result["a"] += numbers.popleft()
+        result["a"] += numbers.popleft()
         if numbers:
             result["s"] -= numbers.popleft()
         if numbers:
