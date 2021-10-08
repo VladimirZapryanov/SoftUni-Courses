@@ -7,7 +7,7 @@ n = 5
 for _ in range(n):
     number = int(input())
     if number < 0:
-        raise ValueCannotBeNegative
+        raise ValueCannotBeNegative("Number is under zero!")
 
 '''
 some test:
