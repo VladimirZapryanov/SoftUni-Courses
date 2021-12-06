@@ -8,14 +8,13 @@ class take_skip:
         return self
 
     def __next__(self):
-        while True:
-            num = self.number
-            self.number += self.step
-            if self.count <= 0:
-                raise StopIteration
+        num = self.number
+        self.number += self.step
+        if self.count <= 0:
+            raise StopIteration
 
-            self.count -= 1
-            return num
+        self.count -= 1
+        return num
 
 
 numbers = take_skip(2, 6)
