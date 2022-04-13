@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def solution():
 
     def integers():
@@ -22,3 +23,29 @@ def solution():
 take = solution()[0]
 halves = solution()[1]
 print(take(5, halves()))
+=======
+def solution():
+
+    def integers():
+        number = 1
+        while True:
+            yield number
+            number += 1
+
+    def halves():
+        for i in integers():
+            yield i / 2
+
+    def take(n, seq):
+        result = []
+        for _ in range(n):
+            result.append(next(seq))
+        return result
+
+    return (take, halves, integers)
+
+
+take = solution()[0]
+halves = solution()[1]
+print(take(5, halves()))
+>>>>>>> a9fb39ed429e8e67941dee3c7a2ba2d6982bf8b8
