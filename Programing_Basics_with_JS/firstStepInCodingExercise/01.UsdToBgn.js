@@ -1,11 +1,11 @@
 function usdToBgn(input) {
-    let dollarExchangeRate = 1.79549
+    let dollarExchangeRate = 1.79549;
 
-    let usd = Number(input[0])
+    let usd = Number(input[0]);
 
-    let bgn = usd * dollarExchangeRate
+    let bgn = usd * dollarExchangeRate;
 
-    console.log(bgn)
+    console.log(bgn);
 }
 
 usdToBgn(["22"])
