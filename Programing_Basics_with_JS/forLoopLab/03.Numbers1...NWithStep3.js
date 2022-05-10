@@ -1,11 +1,11 @@
 function numbers(input) {
     let number = Number(input[0]);
 
-    for (let i = number; i > 0; i--) {
+    for (let i = 1; i <= number; i+=3) {
         console.log(i);
     }
 }
 
-numbers(['2'])
-numbers(['3'])
-numbers(['5'])
+numbers(['10'])
+numbers(['7'])
+numbers(['15'])
