@@ -1,3 +1,5 @@
+// with one for - loop!!!
+
 function specialNumbers(input) {
     let number = Number(input[0]);
 
@@ -16,6 +18,29 @@ function specialNumbers(input) {
     }
 
     console.log(specialNumb);
+}
+
+
+// with nested -loop!!!
+
+function specialNumbers(input) {
+    let number = Number(input[0]);
+
+    let specialNumb = '';
+
+    for(let n1 = 1; n1 <= 9; n1++) {
+        for(let n2 = 1; n2 <= 9; n2++) {
+            for(let n3 = 1; n3 <= 9; n3++) {
+                for(let n4 = 1; n4 <= 9; n4++) {
+                    if(number % n1 === 0 && number % n2 === 0 && number % n3 === 0 && number % n4 === 0) {
+                        specialNumb += `${n1}${n2}${n3}${n4} `;
+                    }
+                }
+            }
+        }
+    }
+
+    console.log(specialNumb)
 }
 
 specialNumbers(['3'])
