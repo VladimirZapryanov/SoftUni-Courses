@@ -6,5 +6,5 @@ function GCD(num1, num2) {
     }
 }
 
-GCD(15, 5)
+// GCD(15, 5)
 GCD(2154 , 458)
