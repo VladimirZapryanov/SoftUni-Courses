@@ -3,8 +3,8 @@ function sumFirtstLast(array) {
     let last = Number(array.pop());
 
     let sum = first + last;
-    console.log(sum);
+    return sum;
 }
 
-sumFirtstLast(['20', '30', '40'])
-sumFirtstLast(['5', '10'])
+console.log(sumFirtstLast(['20', '30', '40']))
+console.log(sumFirtstLast(['5', '10']))
