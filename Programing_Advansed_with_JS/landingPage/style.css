@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+  }
+
+span {
+    color: #50b9e1;
+}
+nav {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: #474747;
+}
+
+nav i {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.navigation nav a:hover {
+    color: #50b9e1;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+}
+
+header p {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 570px;
+    color: black;
+}
+
+/* SITE-HEADER */
+.site-header {
+    background: 
+    linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.6)),
+    url("../Images/kids_main.jpg") no-repeat center;    
+    background-size: cover; 
+  }
+
+.site-header h1 {
+    color: white;
+    font-size: 66px;
+    padding: 200px 0px 50px 100px;
+    margin: 0;
+    width: 500px;
+    letter-spacing: 2px;
+}  
+
+.site-header button {
+    font-size: 26px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin: 0px 0px 200px 100px;
+    padding: 10px 15px;
+}
+
+.site-header button:hover {
+    border-color: #50b9e1;
+    background: #50b9e1;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: "PT-Serif";
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #5a7c8a;
+    padding: 30px;
+}
+
+.welcome {
+    width: 60%;
+    color: #5a7c8a;
+    padding-left: 50px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.welcome p {
+    color: #5a7c8a;
+}
+
+footer {
+    font-size: 16px;
+    color: #5a7c8a;
+    background-color: #43bae3;
+    margin-top: 40px;
+}   
+
+footer p {
+    display: inline-block;
+    padding-left: 150px;
+    color: #5a7c8a;
+
+}
+
+footer i {
+    color: #5a7c8a;
+    border: 1px solid #5a7c8a;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+footer ul {
+    display: inline-block;
+    padding-left: 650px;
+}
+
+footer ul li i:hover {
+    color: black;
+    cursor: pointer;
+    border-color: black;
+}
+
+img {
+    max-width: 70px;
+}
+
+.offerts {
+    text-align: center;
+    display: inline-block;
+    font-family: "PT Serif", serif;
+    background-color: #50b9e1;
+}
+
+.offerts h2,h3,p {
+    color: white;
+    text-decoration: none;
+}
+
+
+.offerts li {
+    display: inline-block;
+    text-align: center;
+    max-width: 25%;
+    padding: 50px;
+}
+
