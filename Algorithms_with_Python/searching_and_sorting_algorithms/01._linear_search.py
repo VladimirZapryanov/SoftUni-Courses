@@ -1,10 +1,10 @@
-def search_item(items, searched_item):
-    if searched_item in items:
+def search_item(numbers, target):
+    if target in numbers:
         return 'Yes'
     return 'No'
 
 
-items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-searched_item = int(input())
+numbers = [int(x) for x in input().split(' ')]
+target = int(input())
 
-print(search_item(items, searched_item))
+print(search_item(numbers, target))
